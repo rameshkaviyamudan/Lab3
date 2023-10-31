@@ -32,10 +32,12 @@ def calculate_average_salary():
 def get_employees_by_dept(department):
     result = []
 
-    # Add your implementation from here
-
+    for x in employee_data:
+        if x['department'] == department:
+            result.append(x)
 
     return result
+
 
 def display_all_records():
     print(("Name" + "\t" +"Age" +"\t" +"Department" +"\t" +"Salary" ).expandtabs(15))
