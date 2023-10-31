@@ -47,7 +47,7 @@ def test_lengthmorethan10():
 
 def test_not_integer():
     result = 2
-    input_arr = [64, 'd', 25,90, 22, 11, 90,64, 34, 25,90, 22, 11, 90]
+    input_arr = [64, 'd', 25,'g', 22, 11, 90,64, 34, 25,90, 22, 11, 90]
 
     test_result = Lab3.bubble_sort(input_arr, 0)
 
